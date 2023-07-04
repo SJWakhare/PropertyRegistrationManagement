@@ -1,0 +1,9 @@
+.my-img2 {
+	background-image: url(../../img/bkg_signup.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}

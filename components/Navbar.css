@@ -1,0 +1,210 @@
+body {
+	overflow-x: hidden;
+	/* background-color: rgb(230, 243, 243); */
+}
+
+.image-container {
+	width: 100%;
+	height: 430px;
+	background-image: url(https://ssl.cdn-redfin.com/v475.2.1/images/homepage/banners/genHomepageDesktopBanner/HPTO_2120-NW-97th-St-Seattle_PremierHP.jpg);
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+}
+
+.search-form {
+	position: relative;
+	/* margin-right: 15px; */
+}
+
+.search-form input[type="text"] {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	box-shadow: 0 2px 5px rgba(60, 58, 74, 0.1);
+	/* background-color: #eaf0e3; */
+	background-color: rgb(214, 219, 224);
+	width: 200px;
+	transition: width 0.3s ease;
+}
+
+.search-form input[type="text"]:focus {
+	width: 300px;
+}
+
+.search-form button {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	padding: 10px;
+}
+
+#search_icon {
+	height: 18px;
+	background-color: rgb(214, 219, 224);
+}
+
+.bkg_img {
+	position: relative;
+	z-index: 1;
+}
+
+.image-container {
+	position: relative;
+	z-index: 1;
+}
+
+.gradient-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(
+		to bottom,
+		rgba(9, 9, 9, 0.347) 0%,
+		rgba(0, 0, 0, 0.445) 100%
+	);
+	z-index: 2;
+}
+
+.overlay-content {
+	position: relative;
+	z-index: 3;
+}
+
+.nav-list {
+	color: #fff;
+	font-family: Roboto;
+	font-weight: 400;
+}
+
+.custom-button {
+	border: 2px solid white;
+	border-radius: 5px;
+	background-color: transparent;
+	color: white;
+	padding: 10px 20px;
+	transition: background-color 0.3s ease;
+}
+
+.sign_button {
+	text-decoration: none;
+	color: #fff;
+}
+
+.custom-button:hover {
+	background-color: white;
+	color: #343a40;
+}
+
+.sign_button:hover {
+	color: #343a40;
+}
+
+.nav-font-color {
+	color: #fff;
+}
+
+.carousel-image {
+	height: 400px;
+}
+
+.body_content {
+	margin-left: 200px;
+	display: flex;
+	padding: 50px;
+	height: 500px;
+	z-index: 1;
+}
+
+.body_info {
+	width: 300px;
+	line-height: 31px;
+	color: white;
+	font-size: large;
+}
+
+.card {
+	/* position: relative; */
+	/* width: 200px; Adjust the width and height to fit your card */
+	/* height: 300px; */
+	overflow: hidden;
+}
+
+.card img {
+	transition: transform 0.3s ease;
+}
+
+.card:hover img {
+	transform: scale(1.2); /* Increase the scale value to make the image larger */
+}
+
+/* .card:hover{
+    border-color: blue;
+} */
+
+.card {
+	border: 1px solid #ccc;
+	transition: box-shadow 0.3s;
+}
+
+.card:hover {
+	animation: glow 1s infinite;
+	box-shadow: 0 0 10px rgb(59, 106, 201); /* Change to your desired glow color */
+}
+
+@keyframes glow {
+	0% {
+		box-shadow: 0 0 10px rgb(59, 106, 201); /* Change to your desired glow color */
+	}
+	50% {
+		box-shadow: 0 0 20px rgb(59, 106, 201); /* Change to your desired glow color */
+	}
+	100% {
+		box-shadow: 0 0 10px rgb(59, 106, 201); /* Change to your desired glow color */
+	}
+}
+
+.footer {
+	background-color: #343a40;
+	padding: 20px;
+	color: #fff;
+}
+
+.footer p {
+	margin-bottom: 0;
+}
+
+.footer ul {
+	list-style: none;
+	padding: 0;
+}
+
+.footer ul li {
+	margin-bottom: 10px;
+}
+
+.increase-size {
+	transition: transform 0.3s ease;
+}
+
+.increase-size:hover {
+	transform: scale(1.2);
+}
+
+.logo-container {
+	display: flex;
+	align-items: center;
+}
+
+.logo-container h3 {
+	margin-left: 10%;
+    margin-top: 10px;
+}

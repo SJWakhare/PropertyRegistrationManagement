@@ -1,0 +1,9 @@
+.PropertyCard {
+	transition: box-shadow 0.8s ease;
+}
+
+.PropertyCard:hover {
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+	transform: scale(1.05);
+	transition-timing-function: ease-out;
+}
